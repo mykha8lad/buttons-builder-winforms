@@ -1,15 +1,15 @@
 namespace WinFormsApp3
 {
     public partial class Form1 : Form
-    {
-        static bool clickForm = false;
-        Point point;
-        Button button;
-
+    {        
         public Form1()
         {
             InitializeComponent();
         }
+        
+        Point point;
+        Button button;
+        static bool clickForm = false;
 
         private void CreateButtons()
         {
